@@ -10,7 +10,6 @@ Esta é uma API de notas desenvolvida como parte do desafio do curso Full Stack 
 - **Consulta de Notas:** Busca de notas com base em parâmetros como título, ID do usuário e tags associadas.
 - **Filtragem por Tags:** Possibilidade de filtrar notas por tags associadas.
 - **Ordenação e Pesquisa:** Suporte a ordenação e pesquisa por título.
-- **Instalação Remota:** Funcionalidade para instalação remota para apoiadores do segmento prata ou superior, disponível de segunda a sexta, das 09:00 às 22:00 UTC.
 
 **Como Usar:**
 1. **Instalação:**
@@ -28,11 +27,12 @@ Esta é uma API de notas desenvolvida como parte do desafio do curso Full Stack 
 
 # Consulta de Notas:
 
-- Endpoint: /notes
+- Endpoint: /movies
 - Parâmetros:
     - title (opcional): Título da nota.
     - user_id (obrigatório): ID do usuário.
     - tags (opcional): Tags associadas à nota (separadas por vírgula).
+    - rating (opicional): Avaliação associada a nota
 
 # Dependências:
 
@@ -43,4 +43,4 @@ Esta é uma API de notas desenvolvida como parte do desafio do curso Full Stack 
 - sqlite (^5.1.1): Conector SQLite para Node.js.
 - sqlite3 (^5.1.7): Módulo SQLite para Node.js.
 
-***Observação: Este projeto é parte de um curso em andamento e está sujeito a alterações durante o desenvolvimento. Contribuições e sugestões são bem-vindas!***
+***Observação: Este projeto é foi feito durante um desafio em um curso e o desenvolvimento do mesmo está em andamento portanto sujeito a alterações durante o desenvolvimento. Contribuições e sugestões são bem-vindas!***
